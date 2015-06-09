@@ -428,7 +428,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
-					"/Users/gretchen/Downloads/parse-library-1.7.4",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Instagram2.0/Info.plist;
@@ -444,7 +443,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
-					"/Users/gretchen/Downloads/parse-library-1.7.4",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Instagram2.0/Info.plist;
@@ -460,7 +458,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"/Users/gretchen/Downloads/parse-library-1.7.4",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -480,7 +477,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"/Users/gretchen/Downloads/parse-library-1.7.4",
 				);
 				INFOPLIST_FILE = Instagram2.0Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
