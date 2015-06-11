@@ -30,8 +30,23 @@
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
+
+    //UINavigationBar.appearance().tintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:255/255.0 green:92/255.0 blue:66/255.0 alpha:1.0]];
+
+    // TAB BAR
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor grayColor], NSForegroundColorAttributeName, nil] forState:UIControlStateDisabled]; // font color
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, nil] forState:UIControlStateSelected]; // font color
+
+    UITabBarController *tbController = (UITabBarController *)self.window.rootViewController; // To get the item
+    UITabBar *myTabBar = tbController.tabBar;
+    myTabBar.tintColor = [UIColor whiteColor]; // image color
+    [myTabBar setBarTintColor:[UIColor colorWithRed:255/255.0 green:92/255.0 blue:66/255.0 alpha:1.0]];
+    [myTabBar setTranslucent:YES];
+
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
