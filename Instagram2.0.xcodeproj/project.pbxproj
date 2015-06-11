@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0091F2751B2793A200993218 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F2741B2793A200993218 /* SignupViewController.m */; };
+		0091F2781B2793C400993218 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F2771B2793C400993218 /* LoginViewController.m */; };
+		0091F27B1B279F8300993218 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F27A1B279F8300993218 /* ProfileViewController.m */; };
+		0091F27F1B27A64200993218 /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F27E1B27A64200993218 /* PhotoViewCell.m */; };
+		0091F2831B27AE6500993218 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F2821B27AE6500993218 /* FriendsViewController.m */; };
+		0091F2861B27AE9000993218 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F2851B27AE9000993218 /* UsersViewController.m */; };
+		0091F28A1B27B8E100993218 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091F2891B27B8E100993218 /* UploadViewController.m */; };
+		00A761E71B28D6C9005FE8F5 /* ProfilePictureImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A761E61B28D6C9005FE8F5 /* ProfilePictureImageView.m */; };
 		FA3D5CD91B276A810068546A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D5CD81B276A810068546A /* main.m */; };
 		FA3D5CDC1B276A810068546A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D5CDB1B276A810068546A /* AppDelegate.m */; };
 		FA3D5CDF1B276A810068546A /* MainPhotoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D5CDE1B276A810068546A /* MainPhotoStreamViewController.m */; };
@@ -67,6 +75,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0091F2731B2793A200993218 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		0091F2741B2793A200993218 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		0091F2761B2793C400993218 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0091F2771B2793C400993218 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0091F2791B279F8300993218 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		0091F27A1B279F8300993218 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		0091F27D1B27A64200993218 /* PhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
+		0091F27E1B27A64200993218 /* PhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
+		0091F2811B27AE6500993218 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		0091F2821B27AE6500993218 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		0091F2841B27AE9000993218 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		0091F2851B27AE9000993218 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		0091F2881B27B8E100993218 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		0091F2891B27B8E100993218 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		00A761E51B28D6C9005FE8F5 /* ProfilePictureImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePictureImageView.h; sourceTree = "<group>"; };
+		00A761E61B28D6C9005FE8F5 /* ProfilePictureImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePictureImageView.m; sourceTree = "<group>"; };
 		FA3D5CD31B276A810068546A /* Instagram2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3D5CD71B276A810068546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3D5CD81B276A810068546A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -160,6 +184,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0091F27C1B27A5E900993218 /* MainPhotoStream */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D5CDD1B276A810068546A /* MainPhotoStreamViewController.h */,
+				FA3D5CDE1B276A810068546A /* MainPhotoStreamViewController.m */,
+				0091F2761B2793C400993218 /* LoginViewController.h */,
+				0091F2771B2793C400993218 /* LoginViewController.m */,
+				0091F2731B2793A200993218 /* SignupViewController.h */,
+				0091F2741B2793A200993218 /* SignupViewController.m */,
+			);
+			name = MainPhotoStream;
+			sourceTree = "<group>";
+		};
+		0091F2801B27A66E00993218 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0091F2791B279F8300993218 /* ProfileViewController.h */,
+				0091F27A1B279F8300993218 /* ProfileViewController.m */,
+				0091F27D1B27A64200993218 /* PhotoViewCell.h */,
+				0091F27E1B27A64200993218 /* PhotoViewCell.m */,
+				00A761E51B28D6C9005FE8F5 /* ProfilePictureImageView.h */,
+				00A761E61B28D6C9005FE8F5 /* ProfilePictureImageView.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		0091F2871B27AE9A00993218 /* SearchFriends */ = {
+			isa = PBXGroup;
+			children = (
+				0091F2811B27AE6500993218 /* FriendsViewController.h */,
+				0091F2821B27AE6500993218 /* FriendsViewController.m */,
+				0091F2841B27AE9000993218 /* UsersViewController.h */,
+				0091F2851B27AE9000993218 /* UsersViewController.m */,
+			);
+			name = SearchFriends;
+			sourceTree = "<group>";
+		};
+		00A761E41B28CEBC005FE8F5 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				0091F2881B27B8E100993218 /* UploadViewController.h */,
+				0091F2891B27B8E100993218 /* UploadViewController.m */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
 		FA3D5CCA1B276A810068546A = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +262,10 @@
 				FA580EE71B279980003E1145 /* Photo.m */,
 				FA3D5CDD1B276A810068546A /* MainPhotoStreamViewController.h */,
 				FA3D5CDE1B276A810068546A /* MainPhotoStreamViewController.m */,
+				0091F27C1B27A5E900993218 /* MainPhotoStream */,
+				0091F2801B27A66E00993218 /* Profile */,
+				0091F2871B27AE9A00993218 /* SearchFriends */,
+				00A761E41B28CEBC005FE8F5 /* Upload */,
 				FA3D5CE01B276A810068546A /* Main.storyboard */,
 				FA3D5CE31B276A810068546A /* Images.xcassets */,
 				FA3D5CE51B276A810068546A /* LaunchScreen.xib */,
@@ -355,10 +429,18 @@
 			files = (
 				FA580EE51B27990B003E1145 /* User.m in Sources */,
 				FA580F1C1B28D563003E1145 /* Comment.m in Sources */,
+				0091F2861B27AE9000993218 /* UsersViewController.m in Sources */,
 				FA3D5CDF1B276A810068546A /* MainPhotoStreamViewController.m in Sources */,
 				FA3D5CDC1B276A810068546A /* AppDelegate.m in Sources */,
 				FA580EE81B279980003E1145 /* Photo.m in Sources */,
+				0091F28A1B27B8E100993218 /* UploadViewController.m in Sources */,
+				0091F2751B2793A200993218 /* SignupViewController.m in Sources */,
 				FA3D5CD91B276A810068546A /* main.m in Sources */,
+				00A761E71B28D6C9005FE8F5 /* ProfilePictureImageView.m in Sources */,
+				0091F2831B27AE6500993218 /* FriendsViewController.m in Sources */,
+				0091F27B1B279F8300993218 /* ProfileViewController.m in Sources */,
+				0091F2781B2793C400993218 /* LoginViewController.m in Sources */,
+				0091F27F1B27A64200993218 /* PhotoViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
