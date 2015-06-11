@@ -31,6 +31,29 @@
 		FA580EE01B278BFD003E1145 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDA1B278BFD003E1145 /* ParseFacebookUtils.framework */; };
 		FA580EE11B278BFD003E1145 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDB1B278BFD003E1145 /* ParseFacebookUtilsV4.framework */; };
 		FA580EE21B278BFD003E1145 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDC1B278BFD003E1145 /* ParseUI.framework */; };
+		FA580EE51B27990B003E1145 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580EE41B27990B003E1145 /* User.m */; };
+		FA580EE81B279980003E1145 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580EE71B279980003E1145 /* Photo.m */; };
+		FA580F1C1B28D563003E1145 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580F1B1B28D563003E1145 /* Comment.m */; };
+		FA580F1E1B28E32E003E1145 /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580F1D1B28E32E003E1145 /* UserTests.m */; };
+		FA580F201B28E36E003E1145 /* PhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580F1F1B28E36E003E1145 /* PhotoTests.m */; };
+		FA580F221B28E37C003E1145 /* CommentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA580F211B28E37C003E1145 /* CommentTests.m */; };
+		FA580F231B28E4B2003E1145 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580ED81B278BFD003E1145 /* Parse.framework */; };
+		FA580F241B28E4B7003E1145 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDC1B278BFD003E1145 /* ParseUI.framework */; };
+		FA580F251B28E4C9003E1145 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580ED71B278BFD003E1145 /* Bolts.framework */; };
+		FA580F261B28E4C9003E1145 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580ED91B278BFD003E1145 /* ParseCrashReporting.framework */; };
+		FA580F271B28E4C9003E1145 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDA1B278BFD003E1145 /* ParseFacebookUtils.framework */; };
+		FA580F281B28E4C9003E1145 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA580EDB1B278BFD003E1145 /* ParseFacebookUtilsV4.framework */; };
+		FA580F291B28E4C9003E1145 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D081B276D9F0068546A /* AudioToolbox.framework */; };
+		FA580F2A1B28E4D5003E1145 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D091B276D9F0068546A /* CFNetwork.framework */; };
+		FA580F2B1B28E4D5003E1145 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0A1B276D9F0068546A /* CoreGraphics.framework */; };
+		FA580F2C1B28E4D5003E1145 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0B1B276D9F0068546A /* CoreLocation.framework */; };
+		FA580F2D1B28E4D9003E1145 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0E1B276D9F0068546A /* MobileCoreServices.framework */; };
+		FA580F2E1B28E4D9003E1145 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0F1B276D9F0068546A /* QuartzCore.framework */; };
+		FA580F2F1B28E4D9003E1145 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D101B276D9F0068546A /* Security.framework */; };
+		FA580F301B28E4D9003E1145 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D111B276D9F0068546A /* StoreKit.framework */; };
+		FA580F311B28E4D9003E1145 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D121B276D9F0068546A /* SystemConfiguration.framework */; };
+		FA580F321B28E4DD003E1145 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0C1B276D9F0068546A /* libsqlite3.dylib */; };
+		FA580F331B28E4DF003E1145 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D5D0D1B276D9F0068546A /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +97,15 @@
 		FA580EDA1B278BFD003E1145 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		FA580EDB1B278BFD003E1145 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		FA580EDC1B278BFD003E1145 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		FA580EE31B27990B003E1145 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FA580EE41B27990B003E1145 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FA580EE61B279980003E1145 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		FA580EE71B279980003E1145 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		FA580F1A1B28D563003E1145 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		FA580F1B1B28D563003E1145 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		FA580F1D1B28E32E003E1145 /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
+		FA580F1F1B28E36E003E1145 /* PhotoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTests.m; sourceTree = "<group>"; };
+		FA580F211B28E37C003E1145 /* CommentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +137,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA580F251B28E4C9003E1145 /* Bolts.framework in Frameworks */,
+				FA580F311B28E4D9003E1145 /* SystemConfiguration.framework in Frameworks */,
+				FA580F301B28E4D9003E1145 /* StoreKit.framework in Frameworks */,
+				FA580F331B28E4DF003E1145 /* libz.dylib in Frameworks */,
+				FA580F241B28E4B7003E1145 /* ParseUI.framework in Frameworks */,
+				FA580F2A1B28E4D5003E1145 /* CFNetwork.framework in Frameworks */,
+				FA580F2B1B28E4D5003E1145 /* CoreGraphics.framework in Frameworks */,
+				FA580F281B28E4C9003E1145 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				FA580F2F1B28E4D9003E1145 /* Security.framework in Frameworks */,
+				FA580F231B28E4B2003E1145 /* Parse.framework in Frameworks */,
+				FA580F2C1B28E4D5003E1145 /* CoreLocation.framework in Frameworks */,
+				FA580F291B28E4C9003E1145 /* AudioToolbox.framework in Frameworks */,
+				FA580F2E1B28E4D9003E1145 /* QuartzCore.framework in Frameworks */,
+				FA580F271B28E4C9003E1145 /* ParseFacebookUtils.framework in Frameworks */,
+				FA580F2D1B28E4D9003E1145 /* MobileCoreServices.framework in Frameworks */,
+				FA580F321B28E4DD003E1145 /* libsqlite3.dylib in Frameworks */,
+				FA580F261B28E4C9003E1145 /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +182,14 @@
 		FA3D5CD51B276A810068546A /* Instagram2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				FA580F1A1B28D563003E1145 /* Comment.h */,
+				FA580F1B1B28D563003E1145 /* Comment.m */,
 				FA3D5CDA1B276A810068546A /* AppDelegate.h */,
 				FA3D5CDB1B276A810068546A /* AppDelegate.m */,
+				FA580EE31B27990B003E1145 /* User.h */,
+				FA580EE41B27990B003E1145 /* User.m */,
+				FA580EE61B279980003E1145 /* Photo.h */,
+				FA580EE71B279980003E1145 /* Photo.m */,
 				FA3D5CDD1B276A810068546A /* MainPhotoStreamViewController.h */,
 				FA3D5CDE1B276A810068546A /* MainPhotoStreamViewController.m */,
 				FA3D5CE01B276A810068546A /* Main.storyboard */,
@@ -158,6 +213,9 @@
 			isa = PBXGroup;
 			children = (
 				FA3D5CF21B276A810068546A /* Instagram2_0Tests.m */,
+				FA580F1D1B28E32E003E1145 /* UserTests.m */,
+				FA580F1F1B28E36E003E1145 /* PhotoTests.m */,
+				FA580F211B28E37C003E1145 /* CommentTests.m */,
 				FA3D5CF01B276A810068546A /* Supporting Files */,
 			);
 			path = Instagram2.0Tests;
@@ -295,8 +353,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA580EE51B27990B003E1145 /* User.m in Sources */,
+				FA580F1C1B28D563003E1145 /* Comment.m in Sources */,
 				FA3D5CDF1B276A810068546A /* MainPhotoStreamViewController.m in Sources */,
 				FA3D5CDC1B276A810068546A /* AppDelegate.m in Sources */,
+				FA580EE81B279980003E1145 /* Photo.m in Sources */,
 				FA3D5CD91B276A810068546A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA580F1E1B28E32E003E1145 /* UserTests.m in Sources */,
+				FA580F201B28E36E003E1145 /* PhotoTests.m in Sources */,
 				FA3D5CF31B276A810068546A /* Instagram2_0Tests.m in Sources */,
+				FA580F221B28E37C003E1145 /* CommentTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +522,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -477,6 +542,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Instagram2.0Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

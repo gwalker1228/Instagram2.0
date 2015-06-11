@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "User.h"
+#import "Photo.h"
+#import "Comment.h"
 #import <Parse/Parse.h>
 
 @interface AppDelegate ()
@@ -22,7 +25,9 @@
     // [Optional] Power your app with Local Datastore. For more info, go to
     // https://parse.com/docs/ios_guide#localdatastore/iOS
     [Parse enableLocalDatastore];
-
+    [User registerSubclass];
+    [Photo registerSubclass];
+    [Comment registerSubclass];
     // Initialize Parse.
     [Parse setApplicationId:@"5rX8x7dkz4dN2uj0joe4Vm6elFSWqMduifwq16q4"
                   clientKey:@"SJdxSYBO3hOYoJteodDVeEStC4jttpfv6leQbeHy"];
